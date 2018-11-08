@@ -1,0 +1,40 @@
+.detail
+	width: calc(100% - 80px);
+	height: 668px;
+	position: relative;
+	
+	&__header
+		display: flex;
+		flex-recoration: row;
+		align-items: center;
+		border-bottom: 1px solid #dae4f2;
+		justify-content: space-between;
+		a
+			text-decoration: none;
+		ul
+			display: flex;
+			flex-recoration: row;
+			list-style: none;
+			
+			li:not(:first-of-type)
+				margin-left: 20px;
+				
+	&__acc
+		padding-right: 10px;
+		display: flex;
+		justify-content: center;
+		
+		img
+			
+			width: 23px;
+			height: 23px;
+			border-radius: 10px;
+		span
+			margin-left: 10px;
+			margin-top: 2px;
+			display: block;
+			color: #252f48;
+		.arrow
+			margin-left: 10px;
+			width: 10px;
+			transform: rotate(-90deg);
